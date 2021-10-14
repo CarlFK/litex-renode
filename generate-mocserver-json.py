@@ -40,7 +40,7 @@ def mk_obj():
 def crawl(d):
 
     # normalize
-    # look for in1:v in2:v and change to in:[v,v]
+    # look for in1:v1 in2:v2 and change to in:[v1,v2]
 
     # are we on a leaf?
     if not hasattr(d,'keys'): return
